@@ -64,6 +64,26 @@ export default {
             </div>
         </div>
     </div>
+
+    <div class="footer-bg-down">
+        <div class="footer-down">
+
+            <div class="btn-footer">
+                <div class="btn">SIGN-UP NOW</div>
+            </div>
+
+            <div class="social-footer">
+                FOLLOW US
+                <img src="../assets/img/footer-facebook.png" alt="">
+                <img src="../assets/img/footer-twitter.png" alt="">
+                <img src="../assets/img/footer-facebook.png" alt="">
+                <img src="../assets/img/footer-youtube.png" alt="">
+                <img src="../assets/img/footer-pinterest.png" alt="">
+                <img src="../assets/img/footer-periscope.png" alt="">
+            </div>
+
+        </div>
+    </div>
 </template>
 
 
@@ -111,5 +131,36 @@ export default {
 
 ul {
     list-style-type: none;
+}
+
+.footer-bg-down {
+    background-color: #303030;
+}
+
+
+.footer-down {
+    width: 90%;
+    margin: auto;
+    max-width: 1200px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 2rem;
+    align-items: center;
+    background-color: #303030;
+
+    .btn {
+        border: 3px solid #0082f9;
+        padding: .8rem;
+        color: white;
+        cursor: pointer;
+    }
+}
+
+.social-footer {
+    color: #0082f9;
+    display: flex;
+    align-items: center;
+    gap: .5rem;
 }
 </style>
