@@ -22,6 +22,6 @@ export default {
 .content {
     color: white;
     padding: 2rem;
-    font-size: 1.2rem;
+    font-size: 1.5rem;
 }
 </style>

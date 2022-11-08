@@ -137,8 +137,7 @@ export default {
     }
 
     .active {
-        color: blue;
-        border-bottom: 3px solid blue;
+        color: #0082f9;
     }
 
     .n-active {

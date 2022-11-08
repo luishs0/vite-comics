@@ -23,8 +23,9 @@ export default {
 
   <main>
     <AppMain />
-    <AppBlueBar />
   </main>
+
+  <AppBlueBar />
 
   <footer>
     <AppFooter />
