@@ -91,9 +91,8 @@ export default {
 
     max-width: 1200px;
 
-
-
-    width: 80%;
+    padding: 1rem;
+    width: 90%;
     margin: auto;
 
     .header-left {
@@ -102,12 +101,12 @@ export default {
 
         img {
             padding: .2rem;
-            height: 5rem;
+            height: 4.5rem;
         }
     }
 
     .header-right {
-        width: 75%;
+        width: 78%;
 
         ul {
             display: flex;
