@@ -72,7 +72,7 @@ export default {
 
         <div class="header-right">
             <ul>
-                <li v-for="(link, index) in links"><a href=""> {{ link.title }} </a></li>
+                <li v-for="(link, index) in links" :key="index"><a href=""> {{ link.title }} </a></li>
             </ul>
         </div>
 

@@ -1,5 +1,12 @@
 <script>
+export default {
+    name: "AppBlueBar",
+    data() {
+        return {
 
+        }
+    }
+}
 </script>
 
 
