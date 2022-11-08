@@ -97,20 +97,25 @@ export default {
 
     .header-left {
         width: 20%;
-        text-align: center;
+        text-align: left;
 
         img {
             padding: .2rem;
-            height: 4.5rem;
+            width: 50%;
+            max-width: 100px;
         }
     }
 
     .header-right {
         width: 78%;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: flex-end;
 
         ul {
             display: flex;
             flex-wrap: wrap;
+            align-items: flex-end;
             gap: .8rem;
         }
 

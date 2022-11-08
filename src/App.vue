@@ -33,7 +33,7 @@ export default {
 </template>
 
 
-<style lang="scss" scoped>
+<style lang="scss">
 @use "./styles/general.scss" as *;
 
 header {
@@ -43,5 +43,12 @@ header {
 
 main {
   background-color: black;
+  margin: auto;
+}
+
+body {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
 }
 </style>
