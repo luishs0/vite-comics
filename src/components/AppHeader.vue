@@ -72,7 +72,10 @@ export default {
 
         <div class="header-right">
             <ul>
-                <li v-for="(link, index) in links" :key="index"><a href=""> {{ link.title }} </a></li>
+                <li v-for="(link, index) in links" :key="index">
+                    <a href="" :class="[link.active === false ? 'n-active' : 'active']"> {{ link.title }}
+                    </a>
+                </li>
             </ul>
         </div>
 
@@ -82,6 +85,8 @@ export default {
 
 
 <style lang="scss" scoped>
+@use "../styles/general.scss" as *;
+
 .container-header {
     display: flex;
     flex-direction: row;
@@ -126,9 +131,18 @@ export default {
 
             a {
                 text-decoration: none;
-                color: black;
+                padding-bottom: 3.6rem;
             }
         }
+    }
+
+    .active {
+        color: blue;
+        border-bottom: 3px solid blue;
+    }
+
+    .n-active {
+        color: black;
     }
 }
 </style>
