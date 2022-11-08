@@ -59,6 +59,7 @@ export default {
 .blue-bar-container {
     width: 90%;
     margin: auto;
+    max-width: 1200px;
 }
 
 ul {

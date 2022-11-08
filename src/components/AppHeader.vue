@@ -106,7 +106,7 @@ export default {
 
         img {
             padding: .2rem;
-            width: 50%;
+            width: 35%;
             max-width: 100px;
         }
     }
