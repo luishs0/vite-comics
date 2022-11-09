@@ -37,6 +37,14 @@ export default {
 
 .card {
     width: calc(100% / 6 - 1rem);
+    cursor: pointer;
+
+    img {
+        width: 150px;
+        height: 150px;
+        object-fit: cover;
+        object-position: top;
+    }
 
 }
 </style>
