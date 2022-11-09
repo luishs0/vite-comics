@@ -100,8 +100,8 @@ export default {
   </header>
 
   <main>
-    <div class="container flex">
-      <AppMain v-for="(card, index) in comicsArray" />
+    <div class="container flex pad">
+      <AppMain v-for="(card, index) in comicsArray" :key="index" :thumb="card.thumb" :series="card.series" />
     </div>
   </main>
 
@@ -122,11 +122,15 @@ header {
   margin: auto;
 }
 
+.pad {
+  padding: 2rem 0;
+}
+
 .flex {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
-  gap: 10px;
+  gap: 1rem;
 }
 
 main {
