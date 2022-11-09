@@ -80,7 +80,7 @@ ul {
             width: 30%;
 
             img {
-                width: 80%;
+                height: 40px;
                 padding-right: .2rem;
             }
         }
