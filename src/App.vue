@@ -103,6 +103,12 @@ export default {
     <div class="container flex pad">
       <AppMain v-for="(card, index) in comicsArray" :key="index" :thumb="card.thumb" :series="card.series" />
     </div>
+
+    <div class="load-more flex center">
+      <div class="btn">
+        LOAD MORE
+      </div>
+    </div>
   </main>
 
   <AppBlueBar />
@@ -126,6 +132,12 @@ header {
   padding: 2rem 0;
 }
 
+.btn {
+  padding: .5rem 1.5rem;
+  background-color: #0082f9;
+  cursor: pointer;
+}
+
 .flex {
   display: flex;
   flex-wrap: wrap;
@@ -133,8 +145,12 @@ header {
   gap: 1rem;
 }
 
+.center {
+  justify-content: center;
+}
+
 main {
-  background-color: black;
+  background-color: #1c1c1c;
   margin: auto;
 }
 
@@ -142,5 +158,11 @@ body {
   padding: 0;
   margin: 0;
   box-sizing: border-box;
+}
+
+.load-more {
+  color: white;
+  text-align: center;
+  padding: 1rem 0 2rem 0;
 }
 </style>
